@@ -8,6 +8,7 @@ class JavaAllInOneApplicationTests {
 
     @Test
     void contextLoads() {
+        System.out.println(1);
     }
 
 }

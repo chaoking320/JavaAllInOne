@@ -5,8 +5,8 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>3.5.3</version>
-<!--        <version>2.6.6</version>--><!-- jdk 1.8 -->
+        <version>2.6.6</version>
+        <!--        <version>2.6.6</version>--><!-- jdk 1.8 -->
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.tsuperman</groupId>
@@ -15,21 +15,9 @@
     <name>JavaAllInOne</name>
     <description>JavaAllInOne</description>
     <url/>
-    <licenses>
-        <license/>
-    </licenses>
-    <developers>
-        <developer/>
-    </developers>
-    <scm>
-        <connection/>
-        <developerConnection/>
-        <tag/>
-        <url/>
-    </scm>
     <properties>
-        <java.version>24</java.version>
-<!--        <java.version>1.8</java.version>--><!-- jdk 1.8 -->
+        <java.version>1.8</java.version>
+        <!--        <java.version>1.8</java.version>--><!-- jdk 1.8 -->
     </properties>
     <dependencies>
         <!-- spring-boot-starter-web 的依赖 -->
@@ -44,10 +32,10 @@
             <scope>test</scope>
         </dependency>
         <!-- 添加AspectJ的Spring Boot Starter依赖 -->
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-aop</artifactId>
-        </dependency>
+        <!--        <dependency>-->
+        <!--            <groupId>org.springframework.boot</groupId>-->
+        <!--            <artifactId>spring-boot-starter-aop</artifactId>-->
+        <!--        </dependency>-->
 
         <!-- 引入 cglib 依赖 -->
         <dependency>
@@ -64,11 +52,11 @@
         </dependency>
 
         <!--引入Redis-->
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-redis</artifactId>
-            <version>1.4.2.RELEASE</version>
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>org.springframework.boot</groupId>-->
+<!--            <artifactId>spring-boot-starter-redis</artifactId>-->
+<!--&lt;!&ndash;            <version>1.4.2.RELEASE</version>&ndash;&gt;-->
+<!--        </dependency>-->
 
         <dependency>
             <groupId>org.redisson</groupId>
@@ -85,7 +73,7 @@
         <dependency>
             <groupId>com.google.guava</groupId>
             <artifactId>guava</artifactId>
-            <version>28.1-jre</version>
+            <version>30.1.1-jre</version>
         </dependency>
     </dependencies>
 
